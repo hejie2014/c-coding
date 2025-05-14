@@ -1,0 +1,9 @@
+{
+    "editor.fontSize": 16,
+    "editor.fontVariations": false,
+    "window.zoomLevel": 1,
+    "files.associations": {
+        "stdio.h": "c",
+        "stdbool.h": "c"
+    },
+}
