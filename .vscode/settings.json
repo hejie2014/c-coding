@@ -6,4 +6,7 @@
         "stdio.h": "c",
         "stdbool.h": "c"
     },
+    "cSpell.words": [
+        "ello"
+    ],
 }
