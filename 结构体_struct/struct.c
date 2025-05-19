@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <string.h>
+#include <windows.h>
+
 // 结构体 struct Student中student这个标签可以省略
 /*
    理论总和： 20 + 4 + 4 + 1 = 29 字节
@@ -23,7 +25,8 @@ void printStudentInfo(Student *student);
 void printStudentInfoAll(Student *student, int num);
 int main()
 {
-
+    SetConsoleOutputCP(65001); // 设置控制台输出为UTF-8
+    // SetConsoleOutputCP(65001); // 设置控制台输出为UTF-8
     Student student1 = {"Spongebob", 25, 2.5, true};
     Student student2 = {"Patrick", 36, 2.0, false};
     Student student3 = {"Squidward", 48, 3.2, true};
