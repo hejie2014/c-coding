@@ -61,6 +61,6 @@ int main()
         Sleep(1000); // 用于Windows
         // sleep(1); // 用于Linux
     }
-    printf("\nprogram end\n");
+    printf("program end\n");
     return 0;
 }
